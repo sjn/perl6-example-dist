@@ -1,0 +1,13 @@
+{
+    "name" : "App::Example",
+    "version" : "0.0.1",
+    "description" : "Wonderful app that helps you with important stuff.",
+    "author" : "Your Name",
+    "provides" : {
+        "App::Example" : "lib/App/Example.pm"
+    },
+    "depends" : [
+        "Vortex::TotalPerspective"
+     ],
+    "source-url" : "git://github.com/you/Vortex-TotalPerspective.git"
+}

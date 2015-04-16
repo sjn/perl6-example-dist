@@ -1,0 +1,6 @@
+PATH=/sbin:/usr/sbin:/bin:/usr/bin 
+
+# start example_cleanup daily at midnight
+0 0 * * * root example_cleanup.cron /var/tmp/example
+
+# vim: ft=crontab
