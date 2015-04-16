@@ -1,0 +1,11 @@
+    {
+        "name" : "Vortex::TotalPerspective",
+        "version" : "0.1.0",
+        "description" : "Wonderful simulation to get some perspective.",
+        "author" : "Your Name",
+        "provides" : {
+            "Vortex::TotalPerspective" : "lib/Vortex/TotalPerspective.pm"
+        },
+        "depends" : [ ],
+        "source-url" : "git://github.com/you/Vortex-TotalPerspective.git"
+    }
