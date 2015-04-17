@@ -10,6 +10,20 @@
     },
     "depends" : [
         "Vortex::TotalPerspective:auth<cpan:*>:ver( v0.1.1 .. * )"
-     ],
-    "source-url" : "git://github.com/you/App-Example.git"
+    ],
+    "build-depends" : [ "executable(css-minify)" ],
+    "test-depends" : [ "Test" ],
+    "support" : {
+        "email" : "your@surname.name",
+        "mailinglist" : "example-discuss@lists.perl6.com",
+        "bugtracker" : "http://github.com/you/App-Example/issues",
+        "source" : "http://github.com/you/App-Example/",
+        "source-url" : "git://github.com/you/App-Example.git",
+        "irc" : "irc://irc.freenode.org/#app-example"
+    },
+    "resource" : {
+        "images" : [
+            "foo.png", "bar.png"
+        ]
+    }
 }
