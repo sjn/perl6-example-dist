@@ -1,13 +1,15 @@
 {
     "name" : "App::Example",
-    "version" : "0.0.1",
+    "perl" : "v6.0",
+    "version" : "v0.0.1",
     "description" : "Wonderful app that helps you with important stuff.",
     "author" : "Your Name",
     "provides" : {
-        "App::Example" : "lib/App/Example.pm"
+        "App::Example" : "lib/App/Example.pm",
+        "example_cleanup.cron" : "bin/example_cleanup.cron"
     },
     "depends" : [
-        "Vortex::TotalPerspective"
+        "Vortex::TotalPerspective:auth<cpan:*>:ver( v0.1.1 .. * )"
      ],
-    "source-url" : "git://github.com/you/Vortex-TotalPerspective.git"
+    "source-url" : "git://github.com/you/App-Example.git"
 }
