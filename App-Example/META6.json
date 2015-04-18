@@ -9,7 +9,8 @@
         "example_cleanup.cron" : "bin/example_cleanup.cron"
     },
     "depends" : [
-        "Vortex::TotalPerspective:auth<cpan:*>:ver( v0.1.1 .. * )"
+        "Vortex::TotalPerspective:auth<cpan:*>:ver( v0.1.1 .. * )",
+        "Lingua::EN::Numbers::Ordinal"
     ],
     "build-depends" : [ "executable(css-minify)" ],
     "test-depends" : [ "Test" ],
