@@ -4,11 +4,9 @@ use v6;
 use Lingua::EN::Numbers::Ordinal;
 
 subset Verbosity of Int where 0 <= * <= 9 ;
-#subset Verbosity of Int where { 0 <= * <= 9 };
 
-#| Deamonize myself
+#| Deamonize myself, with some noise
 sub MAIN (Bool :d(:$daemonize), Verbosity :v(:$verbose) = 0 ) {
     say "I'm a daemon!" if $daemonize;
     say "I'm shouty at the {ordinal($verbose)} level";
 }
-
