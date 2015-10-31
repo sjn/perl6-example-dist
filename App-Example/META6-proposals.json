@@ -1,0 +1,23 @@
+{
+    "name" : "App::Example",
+    "perl" : "v6.0",
+    "version" : "v0.0.1",
+    "description" : "Wonderful app that helps you with important stuff.",
+    "author" : "Your Name",
+    "auth" : "YOURNAME",
+    "authors" : [
+        "J. Random Schmoe",
+        "Y. U. Wütend"
+    ]
+    "provides" : {
+        "App::Example" : "lib/App/Example.pm",
+        "example_cleanup.cron" : "bin/example_cleanup.cron"
+    },
+    "depends" : [
+        "Vortex::TotalPerspective:auth<cpan:*>:ver( v0.1.1 .. * )",
+        "executable(/usr/bin/kvm-ok)",
+        "resource(inet:port:80)",
+        "service(inet:ntp)"
+    ],
+    "source-url" : "git://github.com/you/App-Example.git"
+}
